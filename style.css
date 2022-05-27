@@ -13,14 +13,18 @@ body {
 .wrapper img {
     width: 100%;
 }
-.aaa .more-inf {
+.wrapper .more-inf {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+
+  .aaa { 
+    text-align: center;
+  }
+
 }
-}
+
 .main-page {
     display: block;
     width: 500px;
