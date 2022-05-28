@@ -19,7 +19,7 @@ body {
 
 @media (max-width:768px) {
 
-  .aaa { 
+  .wrapper { 
     text-align: center;
   }
 
