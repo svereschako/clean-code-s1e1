@@ -63,8 +63,8 @@ button{
     color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for='new-task'] {
+.caption,
+.add-item {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -90,11 +90,11 @@ label[for='new-task'] {
 }
 
 /* New Task */
-label[for='new-task'] {
+.add-item {
     display: block;
     margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
     width: 318px;
 }
 
