@@ -143,11 +143,11 @@ button{
     display: none;
 }
 
-.list .list-item.editMode .task-input {
+.list .list-item.edit-mode .task-input {
     display: inline-block;
     width: 224px;
 }
 
-.list .list-item.editMode label {
+.list .list-item.edit-mode label {
     display: none;
 }
