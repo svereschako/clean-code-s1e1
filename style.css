@@ -114,7 +114,7 @@ button{
 .list-item > input[type="checkbox"] {
     margin: 0 10px;
 }
-.list-item > label {
+.list-item > .description {
     padding-left: 10px;
     box-sizing: border-box;
     font-size: 18px;
@@ -133,7 +133,7 @@ button{
 }
 
 /* Completed */
-#completed-tasks label {
+#completed-tasks .description {
     text-decoration: line-through;
     color: #888;
 }
@@ -148,6 +148,6 @@ button{
     width: 224px;
 }
 
-.list .list-item.edit-mode label {
+.list .list-item.edit-mode .description {
     display: none;
 }
